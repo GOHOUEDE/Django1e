@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct 15 05:52:31 2023
+
+@author: HOME
+
+"""
+import numpy as np
+z=np.arange(-100,100,0.01)
+D=5
+io=0.1
+ho=1.5
+beta=1-(2*ho/D)
+bo=D*np.sqrt(1-beta**2)
+R=D/4*()
+Cw
+
+vo=Cw*np.sqrt(io*R)
+
+a=Cw-vo
+b=2*Cw-(x*vo)
+A=2*(a*Ho)-(ho*vo)/b
+B=Ho-A
+c=-1*g*io*(2*Cw-(x*vo))/(vo*g*ho-(vo-Cw)**2)
+C=np.exp(c*z)
+H=A+B
